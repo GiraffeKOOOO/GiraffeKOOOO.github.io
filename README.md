@@ -1,2 +1,2 @@
-# paskals-page
+# Paskal's page
 Wesbites go brrrrr
