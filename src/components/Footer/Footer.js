@@ -3,16 +3,16 @@ import React from 'react';
 // import necessary components
 
 // import styling
-
+import '../../css/Footer/Footer.css';
 // import media
 
 
-function Button() {
+function Footer() {
     return (
       <div>
-          <button>Push me</button>
+          <p>Footer</p>
       </div>
     );
 }
 
-export default Button;
+export default Footer;

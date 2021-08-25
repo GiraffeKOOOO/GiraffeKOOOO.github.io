@@ -3,16 +3,16 @@ import React from 'react';
 // import necessary components
 
 // import styling
-
+import '../../css/Header/Header.css';
 // import media
 
 
-function Button() {
+function Header() {
     return (
       <div>
-          <button>Push me</button>
+          <p>Header</p>
       </div>
     );
 }
 
-export default Button;
+export default Header;
