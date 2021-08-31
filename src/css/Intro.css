@@ -1,0 +1,31 @@
+#intro-wrapper {
+  display: flex;
+}
+
+#face-img {
+  width: 200px;
+  height: 200px;
+  border: solid darkgreen 2px;
+  border-radius: 100px;
+}
+
+#intro-text-wrapper {
+  text-align: center;
+  margin-left: 30px;
+  float: inline-start;
+}
+
+#intro-name {
+  font-family: "Abel";
+  font-size: 3rem;
+}
+
+#intro-occupation {
+  font-family: "Abel";
+  font-size: 1.9rem;
+}
+
+#intro-academic-title {
+  font-family: "Abel";
+  font-size: 1.5rem;
+}
