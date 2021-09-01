@@ -25,7 +25,7 @@ function IconSwitch(iconName) {
 function QuadrantButton(props) {
     return (
         <div id="quadrant-button-wrapper" style={{backgroundColor: props.colour}} onClick={()=> console.log("something")}>
-            {{/** the div on click needs to take the user to the location on the page */}}
+            {/** the div on click needs to take the user to the location on the page */}
             <Container>
                 <Row>
                     <Col id="row-quadrant-button-icon" xs={1} md={1} lg={1} xl={1} xxl={1}>
