@@ -1,0 +1,11 @@
+#carousel-title {
+  font-family: "Abel";
+  font-size: 2.5rem;
+}
+
+#white-rectangle {
+  width: 100%;
+  height: 300px;
+  background-color: #bababa;
+  border-radius: 20px;
+}

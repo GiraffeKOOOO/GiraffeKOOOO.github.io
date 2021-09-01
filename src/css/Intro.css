@@ -1,28 +1,18 @@
 #intro-wrapper {
-  display: flex;
-}
-
-#face-img {
-  width: 200px;
-  height: 200px;
-  border: solid darkgreen 2px;
-  border-radius: 100px;
-}
-
-#intro-text-wrapper {
-  text-align: center;
-  margin-left: 30px;
-  float: inline-start;
+  margin: auto;
+  margin-top: 15px;
 }
 
 #intro-name {
   font-family: "Abel";
   font-size: 3rem;
+  margin-bottom: 0px;
 }
 
 #intro-occupation {
   font-family: "Abel";
   font-size: 1.9rem;
+  margin-bottom: 0px;
 }
 
 #intro-academic-title {
