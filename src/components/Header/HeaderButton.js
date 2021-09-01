@@ -11,6 +11,7 @@ function HeaderButton(props) {
     return (
       <div id="button-wrapper">
           <Link to={'/'+props.location}>
+          {{/** the div on click needs to take the user to the location on the page */}}
               <Button variant="outline" id="button-component">
                 {props.name}
               </Button>

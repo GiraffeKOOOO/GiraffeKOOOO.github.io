@@ -41,15 +41,13 @@ function HomePage() {
               <Col xs={6} md={6} lg={6} xl={6} xxl={6}>
                 <QuadrantButton
                   name="Projects"
-                  icon="cogwheel"
-                  colour="green"
+                  colour="#88e3b0"
                 />
               </Col>
               <Col xs={6} md={6} lg={6} xl={6} xxl={6}>
                 <QuadrantButton
                   name="Work Experience"
-                  icon="cogwheel"
-                  colour="red"
+                  colour="#f5837a"
                 />
               </Col>
             </Row>
@@ -57,15 +55,13 @@ function HomePage() {
               <Col xs={6} md={6} lg={6} xl={6} xxl={6}>
                 <QuadrantButton
                   name="Academia"
-                  icon="cogwheel"
-                  colour="blue"
+                  colour="#a6b0ff"
                 />
               </Col>
               <Col xs={6} md={6} lg={6} xl={6} xxl={6}>
                 <QuadrantButton
                   name="Contact"
-                  icon="cogwheel"
-                  colour="orange"
+                  colour="#f5c587"
                 />
               </Col>
             </Row>
