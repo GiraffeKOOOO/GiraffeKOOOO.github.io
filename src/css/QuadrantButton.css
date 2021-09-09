@@ -4,6 +4,11 @@
   position: relative;
 }
 
+#quadrant-button-wrapper:hover {
+  opacity: 0.8;
+  box-shadow: 1px 1px 1px black;
+}
+
 #quadrant-button-label {
   font-family: "Abel";
   font-size: 3rem;
