@@ -13,6 +13,7 @@ import facePicture from '../media/face.png';
 function HomePage() {
     return (
       <Container id="home-page-wrapper" fluid>
+        {/** Introduction */}
         <Row id="row-intro">
           <Col id="col-left" xs={2} md={2} lg={2} xl={2} xxl={2}/>
           <Col xs={1} md={1} lg={1} xl={1} xxl={1}>
@@ -27,6 +28,7 @@ function HomePage() {
           </Col>
           <Col id="col-right" xs={3} md={3} lg={3} xl={3} xxl={3}/>
         </Row>
+        {/** Project carousel */}
         <Row id="row-carousel">
           <Col id="col-left" xs={1} md={1} lg={1} xl={1} xxl={1}/>
           <Col id="col-middle" xs={10} md={10} lg={10} xl={10} xxl={10}>
@@ -34,6 +36,7 @@ function HomePage() {
           </Col>
           <Col id="col-right" xs={1} md={1} lg={1} xl={1} xxl={1}/>
         </Row>
+        {/** Navigation buttons */}
         <Row id="row-quadrant">
           <Col id="col-left" xs={1} md={1} lg={1} xl={1} xxl={1}/>
           <Col id="col-middle" xs={10} md={10} lg={10} xl={10} xxl={10}>
@@ -65,6 +68,14 @@ function HomePage() {
                 />
               </Col>
             </Row>
+          </Col>
+          <Col id="col-right" xs={1} md={1} lg={1} xl={1} xxl={1}/>
+        </Row>
+        {/** Academia */}
+        <Row id="row-carousel">
+          <Col id="col-left" xs={1} md={1} lg={1} xl={1} xxl={1}/>
+          <Col id="col-middle" xs={10} md={10} lg={10} xl={10} xxl={10}>
+            
           </Col>
           <Col id="col-right" xs={1} md={1} lg={1} xl={1} xxl={1}/>
         </Row>
