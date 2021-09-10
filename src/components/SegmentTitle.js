@@ -7,6 +7,7 @@ function SegmentTitle(props) {
     return (
         <div id="segment-title-wrapper">
             <p id="segment-title">{props.title}</p>
+            <div id="segment-title-underline"/>
         </div>
     );
 }

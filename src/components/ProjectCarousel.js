@@ -1,8 +1,7 @@
 // import react
 import React from 'react';
 // import necessary components
-import Carousel from 'react-bootstrap/Carousel'
-import SegmentTitle from './SegmentTitle';
+import Carousel from 'react-bootstrap/Carousel';
 // import styling
 import '../css/ProjectCarousel.css';
 // import media
@@ -10,9 +9,6 @@ import '../css/ProjectCarousel.css';
 function ProjectCarousel() {
     return (
         <div id="carousel-wrapper">
-            <SegmentTitle 
-                title="Recent Projects"
-            />
             <Carousel variant="dark">
                 <Carousel.Item onClick={() => console.log("redirect to project page")}>
                     <div id="white-rectangle"/>

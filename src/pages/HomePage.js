@@ -5,10 +5,12 @@ import { Col, Container, Row } from 'react-bootstrap';
 import ProjectCarousel from '../components/ProjectCarousel';
 import Intro from '../components/Intro';
 import QuadrantButton from '../components/QuadrantButton';
+import Academia from '../components/Academia';
 // import styling
 import '../css/HomePage.css';
 // import media
 import facePicture from '../media/face.png';
+import SegmentTitle from '../components/SegmentTitle';
 
 function HomePage() {
     return (
@@ -32,6 +34,9 @@ function HomePage() {
         <Row id="row-carousel">
           <Col id="col-left" xs={1} md={1} lg={1} xl={1} xxl={1}/>
           <Col id="col-middle" xs={10} md={10} lg={10} xl={10} xxl={10}>
+            <SegmentTitle 
+              title="Recent Projects"
+            />
             <ProjectCarousel/>
           </Col>
           <Col id="col-right" xs={1} md={1} lg={1} xl={1} xxl={1}/>
@@ -75,7 +80,10 @@ function HomePage() {
         <Row id="row-carousel">
           <Col id="col-left" xs={1} md={1} lg={1} xl={1} xxl={1}/>
           <Col id="col-middle" xs={10} md={10} lg={10} xl={10} xxl={10}>
-            
+            <SegmentTitle
+              title="Academia"
+            />
+            <Academia/>
           </Col>
           <Col id="col-right" xs={1} md={1} lg={1} xl={1} xxl={1}/>
         </Row>
