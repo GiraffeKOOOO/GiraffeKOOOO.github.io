@@ -1,3 +1,9 @@
+/* --- Tailwind CSS --- */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* --- original idnex.css --- */
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
