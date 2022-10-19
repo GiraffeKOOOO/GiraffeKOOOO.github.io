@@ -43,7 +43,7 @@ function Footer() {
             Academia
           </a>
           <a 
-            href='https://drive.google.com/file/d/1E-Vi6ciNGEHqfG2v-VfCsra8smiK-tBQ/view?usp=sharing'
+            href='https://drive.google.com/file/d/1oF8Wgf_10Shti79L1rb5jOjVFJvNj5sT/view?usp=sharing'
             rel='noreferrer noopener'
             target="_blank"
             className='no-underline pl-2 pr-2 text-slate-400 hover:text-slate-100'

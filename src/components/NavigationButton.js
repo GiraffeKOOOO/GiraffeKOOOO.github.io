@@ -31,7 +31,7 @@ function NavigationButton(props) {
             case "Academia":
                 return '/academia'
             case "CV":
-                return 'https://drive.google.com/file/d/1E-Vi6ciNGEHqfG2v-VfCsra8smiK-tBQ/view?usp=sharing'
+                return 'https://drive.google.com/file/d/1oF8Wgf_10Shti79L1rb5jOjVFJvNj5sT/view?usp=sharing'
             case "Contact Me":
                 return '/contact'
             case "About Me":
