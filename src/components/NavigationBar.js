@@ -26,7 +26,7 @@ function NavigationBar() {
               <Nav.Link href="/projects">Projects</Nav.Link>
               <Nav.Link href="/experience">Experience</Nav.Link>
               <Nav.Link href="/academia">Academia</Nav.Link>
-              <Nav.Link href="/cv">CV</Nav.Link>
+              <Nav.Link href="https://drive.google.com/file/d/1E-Vi6ciNGEHqfG2v-VfCsra8smiK-tBQ/view?usp=sharing" target="_blank" rel="noopener noreferrer">CV</Nav.Link>
               <Nav.Link href="/contact">Contact</Nav.Link>
               <Nav.Link href="/about">About</Nav.Link>
             </Nav>

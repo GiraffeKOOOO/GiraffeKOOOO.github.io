@@ -31,7 +31,7 @@ function NavigationButton(props) {
             case "Academia":
                 return '/academia'
             case "CV":
-                return '/cv'
+                return 'https://drive.google.com/file/d/1E-Vi6ciNGEHqfG2v-VfCsra8smiK-tBQ/view?usp=sharing'
             case "Contact Me":
                 return '/contact'
             case "About Me":
@@ -44,9 +44,10 @@ function NavigationButton(props) {
   return (
     <>
         <a 
-            class="grid grid-cols-3 gap-1 no-underline text-white border rounded-[15px] hover:bg-cyan-900"
+            className="grid grid-cols-3 gap-1 no-underline text-white border rounded-[15px] hover:bg-cyan-900"
             href={HrefSwitch(props.name)} 
             rel='noreferrer noopener'
+            target={props.name === 'CV' ? '_blank': ''}
         >
             <div className='ml-auto mr-auto mt-2 mb-2'>{IconSwitch(props.name)}</div>
             <div className='col-span-2 text-3xl mt-auto mb-4'>{props.name}</div>
