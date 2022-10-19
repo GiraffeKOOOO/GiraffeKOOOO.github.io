@@ -5,15 +5,15 @@ import { Github, Linkedin } from 'react-bootstrap-icons';
 function Footer() {
   return (
     <>
-      <div className='grid grid-cols-4 gap-2 footer-bg-gray pt-2 pb-3 text-center'>
+      <footer className='flex flex-col grid grid-cols-1 lg:grid-cols-4 lg:gap-2 pt-2 pb-3 text-center footer-bg-gray'>
         {/** left side - react */}
-        <span className='flex'>
+        <span className='flex mx-auto pb-2'>
           <img src={logo} className="App-logo" alt="logo" />
           <p className='mt-auto mb-auto text-slate-400'>Portfolio page made using React</p>
         </span>
 
         {/** middle side - navigation links */}
-        <div className='col-span-2 mt-auto mb-auto'>
+        <div className='flex flex-col mx-auto pb-2 md:flex-row md:col-span-2 md:mt-auto md:mb-auto'>
           <a 
             href='/'
             rel='noreferrer noopener'
@@ -67,7 +67,7 @@ function Footer() {
         </div>
 
         {/** right side - socials */}
-        <span className='flex mt-auto mb-auto'>
+        <span className='flex mx-auto pt-1 md:mt-auto md:mb-auto'>
           <a 
             href='https://github.com/GiraffeKOOOO'
             target='_blank'
@@ -86,7 +86,9 @@ function Footer() {
           </a>
         </span>
 
-      </div>
+        {/** simple dummy row to fix the issue of the react logo spinning and creating extra space at the bottom */}
+        <div className='lg:col-span-4 h-1'/>
+      </footer>
     </>
   );
 }
