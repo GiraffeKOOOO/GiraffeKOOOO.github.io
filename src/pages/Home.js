@@ -28,13 +28,13 @@ function Home() {
       </div>
 
       {/** recent projects */}
-      <div className='grid grid-cols-1 mt-4 ml-20 mr-20 mb-[50px]'>
+      <div className='grid grid-cols-1 mt-4 lg:ml-20 lg:mr-20 mb-[50px]'>
         <h2 className='Abel text-center md:text-4xl'>Recent Projects</h2>
         <ProjectCarousel/>
       </div>
 
       {/** navigation buttons */}
-      <div className='grid grid-cols-2 mt-4 ml-20 mr-20 mb-[50px] gap-4'>
+      <div className='grid grid-cols-1 mt-4 md:grid-cols-2 lg:ml-20 lg:mr-20 mb-[50px] gap-4'>
         <NavigationButton name={'Projects'}/>
         <NavigationButton name={'Work Experience'}/>
         <NavigationButton name={'Academia'}/>

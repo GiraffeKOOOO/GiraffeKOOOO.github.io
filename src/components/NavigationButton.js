@@ -6,17 +6,17 @@ function NavigationButton(props) {
     function IconSwitch(buttonName) {
         switch(buttonName) {
             case "Projects":
-                return <JournalCode size={100}/>
+                return <JournalCode size={window.innerWidth < 1024? 80 : 100}/>
             case "Work Experience":
-                return <Briefcase size={100}/>
+                return <Briefcase size={window.innerWidth < 1024? 80 : 100}/>
             case "Academia":
-                return <Book size={100}/>
+                return <Book size={window.innerWidth < 1024? 80 : 100}/>
             case "CV":
-                return <FileEarmarkText size={100}/>
+                return <FileEarmarkText size={window.innerWidth < 1024? 80 : 100}/>
             case "Contact Me":
-                return <Envelope size={100}/>
+                return <Envelope size={window.innerWidth < 1024? 80 : 100}/>
             case "About Me":
-                return <PersonCircle size={100}/>
+                return <PersonCircle size={window.innerWidth < 1024? 80 : 100}/>
             default:
                 return <QuestionCircle />
         }
