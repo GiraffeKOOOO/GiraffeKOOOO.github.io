@@ -25,17 +25,17 @@ function NavigationButton(props) {
     function HrefSwitch(buttonName) {
         switch(buttonName) {
             case "Projects":
-                return '/projects'
+                return '/#/projects'
             case "Work Experience":
-                return '/experience'
+                return '/#/experience'
             case "Academia":
-                return '/academia'
+                return '/#/academia'
             case "CV":
                 return 'https://drive.google.com/file/d/1oF8Wgf_10Shti79L1rb5jOjVFJvNj5sT/view?usp=sharing'
             case "Contact Me":
-                return '/contact'
+                return '/#/contact'
             case "About Me":
-                return '/about'
+                return '/#/about'
             default:
                 return '/'
         }
