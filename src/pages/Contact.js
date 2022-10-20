@@ -3,7 +3,7 @@ import NavigationBar from '../components/NavigationBar.js';
 import Footer from '../components/Footer.js';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import { Envelope, Linkedin } from 'react-bootstrap-icons';
+import { Envelope } from 'react-bootstrap-icons';
 import LinkedinLogo from '../media/linkedin.png'; 
 import ProfilePicture from '../media/face.jpeg';
 
