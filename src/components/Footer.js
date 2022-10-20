@@ -15,28 +15,28 @@ function Footer() {
         {/** middle side - navigation links */}
         <div className='flex flex-col mx-auto pb-2 md:flex-row md:col-span-2 md:mt-auto md:mb-auto'>
           <a 
-            href='/'
+            href='/#/'
             rel='noreferrer noopener'
             className='no-underline pl-2 pr-2 text-slate-400 hover:text-slate-100'
           >
             Home
           </a>
           <a 
-            href='/projects'
+            href='/#/projects'
             rel='noreferrer noopener'
             className='no-underline pl-2 pr-2 text-slate-400 hover:text-slate-100'
           >
             Projects
           </a>
           <a 
-            href='/experience'
+            href='/#/experience'
             rel='noreferrer noopener'
             className='no-underline pl-2 pr-2 text-slate-400 hover:text-slate-100'
           >
             Experience
           </a>
           <a 
-            href='/academia'
+            href='/#/academia'
             rel='noreferrer noopener'
             className='no-underline pl-2 pr-2 text-slate-400 hover:text-slate-100'
           >
@@ -51,14 +51,14 @@ function Footer() {
             CV
           </a>
           <a 
-            href='/contact'
+            href='/#/contact'
             rel='noreferrer noopener'
             className='no-underline pl-2 pr-2 text-slate-400 hover:text-slate-100'
           >
             Contact
           </a>
           <a 
-            href='/about'
+            href='/#/about'
             rel='noreferrer noopener'
             className='no-underline pl-2 pr-2 text-slate-400 hover:text-slate-100'
           >
