@@ -62,12 +62,9 @@ function Experience() {
   return (
     <>
       <NavigationBar/>
-        {/** <div className='container mt-3 h-fit md:h-full'> */}
         <div className='container mx-auto'>
-
           <div className='grid grid-cols-1 mt-4 lg:ml-20 lg:mr-20 mb-[50px]'>
             <p className='text-center text-[40px] border-b mb-10'>Work Experience</p>
-
             <div className="accordion">
               {accordionData.map(({ id, title, image, content }) => (
                 <WorkAccordion 
@@ -78,11 +75,8 @@ function Experience() {
                 />
               ))}
             </div>
-
           </div>
-
         </div>
-        {/** </div> */}
       <Footer/>
     </>
   )
