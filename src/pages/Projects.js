@@ -3,6 +3,7 @@ import NavigationBar from '../components/NavigationBar.js';
 import Footer from '../components/Footer';
 import WorkAccordion from '../components/WorkAccordion';
 import ProjectsAccordionData from '../components/ProjectsAccordionData';
+import GithubBanner from '../components/GithubBanner';
 
 function Projects() {
   return (
@@ -11,6 +12,7 @@ function Projects() {
         <div className='container mx-auto'>
 
           <div className='grid grid-cols-1 mt-4 lg:ml-20 lg:mr-20 mb-[50px]'>
+            <GithubBanner />
             <p className='text-center text-[40px] border-b mb-10'>Projects</p>
 
             <div className="accordion">
