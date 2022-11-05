@@ -19,7 +19,7 @@ function GithubBanner() {
                             <p className='text-[25px] m-0'>Paskal Stepien</p>
                             <p className='text-lg m-0'>Github: GiraffeKOOOO</p>
                         </div>
-                        <img className='w-30 h-[116px] p-0 m-0 relative top-[-16px] left-[45px]' src={GithubBannerImage} alt='github-corner-image'/>
+                        <img className='w-30 h-[116px] p-0 m-0 relative top-[-16px] left-[45px]' src={GithubBannerImage} alt='github-corner'/>
                     </div>
                 </Card.Body>
             </Card>
