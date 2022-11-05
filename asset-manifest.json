@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.fa859c2b.css",
-    "main.js": "/static/js/main.c306cd38.js",
+    "main.css": "/static/css/main.20e361d5.css",
+    "main.js": "/static/js/main.bfd16ff6.js",
     "static/js/787.14ffa79b.chunk.js": "/static/js/787.14ffa79b.chunk.js",
     "static/media/dental-practice.png": "/static/media/dental-practice.f341e3fa3e78ac2e5a38.png",
     "static/media/canary.jpg": "/static/media/canary.4cb0cbfe83ec1c161d1b.jpg",
@@ -11,14 +11,15 @@
     "static/media/powder.jpg": "/static/media/powder.bc86a6b9b1f32f8e49df.jpg",
     "static/media/linkedin.png": "/static/media/linkedin.63e7012a5ba6bfa5c4d7.png",
     "static/media/logo512.png": "/static/media/logo512.d7180c12c760ede32ef3.png",
+    "static/media/github-banner-white.png": "/static/media/github-banner-white.cc68b219d452bc7a41eb.png",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.fa859c2b.css.map": "/static/css/main.fa859c2b.css.map",
-    "main.c306cd38.js.map": "/static/js/main.c306cd38.js.map",
+    "main.20e361d5.css.map": "/static/css/main.20e361d5.css.map",
+    "main.bfd16ff6.js.map": "/static/js/main.bfd16ff6.js.map",
     "787.14ffa79b.chunk.js.map": "/static/js/787.14ffa79b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa859c2b.css",
-    "static/js/main.c306cd38.js"
+    "static/css/main.20e361d5.css",
+    "static/js/main.bfd16ff6.js"
   ]
 }
