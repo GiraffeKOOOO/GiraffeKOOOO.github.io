@@ -5,7 +5,8 @@
 
 <p align="center">
 <img src="https://img.shields.io/badge/React-V%3A%2018.2.0-green" alt="react version">
-<img src="https://img.shields.io/badge/Current%20Stage-Development-yellow" alt="current stage">
+<img src="https://img.shields.io/badge/Page%20Version-v1.0-informational" alt="page version">
+<img src="https://img.shields.io/badge/Current%20Stage-live-green" alt="current stage">
 <img src="https://img.shields.io/badge/Public%20release-Github%20Pages-blue" alt="public release">
 </p>
 
