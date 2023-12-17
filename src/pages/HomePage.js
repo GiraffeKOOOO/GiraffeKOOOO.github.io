@@ -7,7 +7,7 @@ import Intro from '../components/Intro';
 import QuadrantButton from '../components/QuadrantButton';
 import Academia from '../components/Academia';
 // import styling
-import '../css/HomePage.css';
+import '../css/homepage.css';
 // import media
 import facePicture from '../media/face.png';
 import SegmentTitle from '../components/SegmentTitle';
