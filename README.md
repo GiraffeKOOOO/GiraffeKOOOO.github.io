@@ -7,7 +7,7 @@
 <img src="https://img.shields.io/badge/React-V%3A%2018.2.0-green" alt="react version">
 <img src="https://img.shields.io/badge/Current%20Stage-deployed-green" alt="current stage">
 <img src="https://img.shields.io/badge/Public%20release-Github%20Pages-blue" alt="public release">
-    <img src="https://img.shields.io/badge/Page%20Version-v1.0-informational" alt="page version">
+    <img src="https://img.shields.io/badge/Page%20Version-v2.0.0-informational" alt="page version">
 </p>
 
 ## About React
