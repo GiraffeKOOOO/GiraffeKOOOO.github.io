@@ -8,15 +8,9 @@ const router = createHashRouter([
     element: <HomePage />,
   },
   {
-    // http://localhost:5173/#/contact
     path: 'contact',
     element: <ContactPage />,
   },
-  // {
-  //   // http://localhost:5173/#/page
-  //   path: "page",
-  //   element: <pageComponent />,
-  // },
 ]);
 
 const App = () => {
