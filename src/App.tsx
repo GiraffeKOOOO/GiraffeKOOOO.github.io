@@ -1,19 +1,15 @@
-import {
-  createHashRouter,
-  RouterProvider,
-} from "react-router-dom";
-import HomePage from "./pages/HomePage/HomePage";
-import ContactPage from "./pages/ContactPage/ContactPage";
-
+import { createHashRouter, RouterProvider } from 'react-router-dom';
+import HomePage from './pages/HomePage/HomePage';
+import ContactPage from './pages/ContactPage/ContactPage';
 
 const router = createHashRouter([
   {
-    path: "/",
+    path: '/',
     element: <HomePage />,
   },
   {
     // http://localhost:5173/#/contact
-    path: "contact",
+    path: 'contact',
     element: <ContactPage />,
   },
   // {
@@ -24,12 +20,7 @@ const router = createHashRouter([
 ]);
 
 const App = () => {
+  return <RouterProvider router={router} />;
+};
 
-  return (
-    <>
-      <RouterProvider router={router} />
-    </>
-  )
-}
-
-export default App
+export default App;
