@@ -1,11 +1,12 @@
 import { createHashRouter, RouterProvider } from 'react-router';
+import Home from 'Pages/Home';
 import './App.css';
 
 const router = createHashRouter([
-  // {
-  //   path: '/',
-  //   element: <HomePage />,
-  // },
+  {
+    path: '/',
+    element: <Home />,
+  },
 ]);
 
 const App = () => {
