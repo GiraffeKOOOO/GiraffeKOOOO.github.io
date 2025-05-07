@@ -1,16 +1,11 @@
-import { createHashRouter, RouterProvider } from 'react-router-dom';
-import HomePage from './pages/HomePage/HomePage';
-import ContactPage from './pages/ContactPage/ContactPage';
+import { createHashRouter, RouterProvider } from 'react-router';
+import './App.css';
 
 const router = createHashRouter([
-  {
-    path: '/',
-    element: <HomePage />,
-  },
-  {
-    path: 'contact',
-    element: <ContactPage />,
-  },
+  // {
+  //   path: '/',
+  //   element: <HomePage />,
+  // },
 ]);
 
 const App = () => {
