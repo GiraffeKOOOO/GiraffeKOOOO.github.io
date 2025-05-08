@@ -1,4 +1,4 @@
-<h2 align="center">Paskal's Portfolio - React</h2>
+<h2 align="center">Paskal's Portfolio page - React</h2>
 <p align="center">A simple portfolio page made in React to demonstrate my projects, work experiences, and academic achievements</p>
 
 <p align="center"><a href="https://react.dev/learn/typescript" target="_blank"><img src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*xgoMW6Ju6PJ8VqEA.png" width="300" alt="React Logo"></a></p>
