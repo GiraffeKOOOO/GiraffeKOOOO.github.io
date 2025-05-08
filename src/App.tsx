@@ -1,35 +1,16 @@
-import {
-  createHashRouter,
-  RouterProvider,
-} from "react-router-dom";
-import HomePage from "./pages/HomePage/HomePage";
-import ContactPage from "./pages/ContactPage/ContactPage";
-
+import { createHashRouter, RouterProvider } from 'react-router';
+import Home from 'Pages/Home';
+import './App.css';
 
 const router = createHashRouter([
   {
-    path: "/",
-    element: <HomePage />,
+    path: '/',
+    element: <Home />,
   },
-  {
-    // http://localhost:5173/#/contact
-    path: "contact",
-    element: <ContactPage />,
-  },
-  // {
-  //   // http://localhost:5173/#/page
-  //   path: "page",
-  //   element: <pageComponent />,
-  // },
 ]);
 
 const App = () => {
+  return <RouterProvider router={router} />;
+};
 
-  return (
-    <>
-      <RouterProvider router={router} />
-    </>
-  )
-}
-
-export default App
+export default App;
