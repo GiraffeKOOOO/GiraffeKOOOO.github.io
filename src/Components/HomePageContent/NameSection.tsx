@@ -1,0 +1,21 @@
+import { FC } from 'react';
+import { Stack, Typography } from '@mui/material';
+import ScrollButton from 'Components/HomePageContent/ScrollButton';
+import { Colours } from 'Components/Shared/Colours';
+
+const NameSection: FC = () => {
+  return (
+    <Stack direction="column" justifyContent="center" alignItems="center" sx={{ width: '60%' }}>
+      <Typography sx={{ fontSize: '5rem' }}>Hi I'm Paskal, a</Typography>
+      <Typography sx={{ fontSize: '5rem', marginTop: '-1.5rem', marginBottom: '0.5rem' }}>
+        Software Engineer
+      </Typography>
+      <Typography sx={{ fontSize: '1.5rem', color: Colours.navButton }}>
+        MSc | BSc Software Engineering First Class Graduate
+      </Typography>
+      <ScrollButton />
+    </Stack>
+  );
+};
+
+export default NameSection;
