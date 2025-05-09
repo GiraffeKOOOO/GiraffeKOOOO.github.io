@@ -11,9 +11,11 @@ const AboutSection: FC = () => {
         About Me
       </Typography>
       <Typography align="left">
-        Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
-        ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem
-        ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
+        I've been in to computers from when I was in kindergarten, playing Starsky & Hutch and Mario
+        Forever. Fast forward 20 years, still glued to a screen however now with a slightly
+        different reason. These days I prefer to make or work on software that makes other peoples'
+        lives easier, or solves a problem they have. It's the reason I get up in the morning, and
+        what keeps me up at night.
       </Typography>
     </Stack>
   );

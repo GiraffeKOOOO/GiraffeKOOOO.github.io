@@ -12,8 +12,8 @@ const CurrentRoleSection: FC = () => {
       </Typography>
       <Typography align="left">Software Engineer Level 2 at Redwood Technologies Ltd</Typography>
       <Typography align="left">
-        Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem
-        Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
+        Developing features for both Front and Back end, prominently in React and Dotnet as part of
+        an Agile team
       </Typography>
     </Stack>
   );
