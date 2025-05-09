@@ -7,3 +7,8 @@ export enum NavButtonName {
   Education = 'Education',
   Contact = 'Contact',
 }
+
+export enum SocialsButtonName {
+  linkedIn = 'Linked In',
+  gitHub = 'GitHub',
+}

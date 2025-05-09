@@ -13,6 +13,7 @@ const NavButton: FC<NavButtonProps> = ({ btnName }) => {
       variant="text"
       sx={{
         textTransform: 'none',
+        fontSize: '1.1rem',
         paddingX: '1rem',
         backgroundColor: Colours.transparent,
         color: Colours.navButton,
