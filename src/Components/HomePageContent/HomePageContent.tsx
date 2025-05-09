@@ -1,5 +1,8 @@
 import { FC } from 'react';
-import { Stack, Typography } from '@mui/material';
+import { Stack } from '@mui/material';
+import NameSection from 'Components/HomePageContent/NameSection';
+import DescriptionSection from 'Components/HomePageContent/DescriptionSection';
+import bannerImage from 'Assets/pbs-transparent.png';
 
 const HomePageContent: FC = () => {
   return (
@@ -8,30 +11,17 @@ const HomePageContent: FC = () => {
       spacing={2}
       justifyContent="center"
       alignItems="center"
-      sx={{ height: '100vh' }}
+      sx={{
+        height: '100vh',
+        // TODO: correct this image
+        backgroundImage: `url(${bannerImage})`,
+        backgroundSize: '55rem 55rem',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: '48% 90%',
+      }}
     >
-      <Stack
-        direction="column"
-        spacing={2}
-        justifyContent="center"
-        alignItems="center"
-        sx={{ width: '60%' }}
-      >
-        <h1>Welcome to my portfolio</h1>
-        <h2>My name is John Doe</h2>
-        <h3>I am a software engineer</h3>
-      </Stack>
-      <Stack
-        direction="column"
-        spacing={2}
-        justifyContent="center"
-        alignItems="center"
-        sx={{ width: '40%' }}
-      >
-        <Typography>section 1</Typography>
-        <Typography>section 1</Typography>
-        <Typography>section 1</Typography>
-      </Stack>
+      <NameSection />
+      <DescriptionSection />
     </Stack>
   );
 };
