@@ -1,13 +1,14 @@
-import { FC } from 'react';
+import { FC, RefObject } from 'react';
 import { Button } from '@mui/material';
 import { NavButtonName } from 'Components/Shared/Types';
 import { Colours } from 'Components/Shared/Colours';
 
 type NavButtonProps = {
   btnName: NavButtonName;
+  sectionRef?: RefObject<HTMLDivElement | null>;
 };
 
-const NavButton: FC<NavButtonProps> = ({ btnName }) => {
+const NavButton: FC<NavButtonProps> = ({ btnName, sectionRef }) => {
   return (
     <Button
       variant="text"
@@ -22,8 +23,9 @@ const NavButton: FC<NavButtonProps> = ({ btnName }) => {
         },
       }}
       onClick={() => {
-        // TODO: implement going to ref here / page
-        console.log('test');
+        if (sectionRef) {
+          if (sectionRef.current) sectionRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
       }}
     >
       {btnName}

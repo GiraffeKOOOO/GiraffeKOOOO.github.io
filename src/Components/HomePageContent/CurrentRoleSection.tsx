@@ -13,7 +13,8 @@ const CurrentRoleSection: FC = () => {
       <Typography align="left">Software Engineer Level 2 at Redwood Technologies Ltd</Typography>
       <Typography align="left">
         Developing features for both Front and Back end, prominently in React and Dotnet as part of
-        an Agile team
+        an Agile team. With a key focus on ensuring usability and more importantly WCAG
+        accessability in web based CCaS
       </Typography>
     </Stack>
   );

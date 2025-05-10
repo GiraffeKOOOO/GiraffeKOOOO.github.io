@@ -1,9 +1,13 @@
-import { FC } from 'react';
+import { FC, RefObject } from 'react';
 import { IconButton } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Colours } from 'Components/Shared/Colours';
 
-const ScrollButton: FC = () => {
+type ScrollButtonProps = {
+  skillSectionRef: RefObject<HTMLDivElement | null>;
+};
+
+const ScrollButton: FC<ScrollButtonProps> = ({ skillSectionRef }) => {
   return (
     <IconButton
       aria-label="scroll to next section"
@@ -21,8 +25,9 @@ const ScrollButton: FC = () => {
         },
       }}
       onClick={() => {
-        // TODO: implement going to ref here / page
-        console.log('test');
+        if (skillSectionRef.current) {
+          skillSectionRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
       }}
     >
       <ExpandMoreIcon fontSize="large" />
