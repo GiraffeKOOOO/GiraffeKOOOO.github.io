@@ -1,14 +1,19 @@
-import { FC } from 'react';
-import { Stack, Typography } from '@mui/material';
+import { FC, RefObject } from 'react';
+import { Typography } from '@mui/material';
 import SkillsToggle from 'Components/Skills/SkilsToggle';
+import ContentWrapper from 'Components/Shared/ContentWrapper';
 
-const Skills: FC = () => {
+type SkillsProps = {
+  skillSectionRef: RefObject<HTMLDivElement | null>;
+};
+
+const Skills: FC<SkillsProps> = ({ skillSectionRef }) => {
   return (
-    <Stack direction="column" spacing={4}>
+    <ContentWrapper sectionRef={skillSectionRef} direction="column">
       <Typography sx={{ fontSize: '2.2rem' }}>Skills</Typography>
       <SkillsToggle />
       {/* <SkillDisplay /> */}
-    </Stack>
+    </ContentWrapper>
   );
 };
 

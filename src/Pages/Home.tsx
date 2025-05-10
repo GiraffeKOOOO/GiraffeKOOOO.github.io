@@ -3,6 +3,7 @@ import PageContainerGrid from 'Components/Shared/PageContainerGrid';
 import Navbar from 'Components/Navbar/Navbar';
 import About from 'Components/About/About';
 import Footer from 'Components/Footer/Footer';
+import Skills from 'Components/Skills/Skills';
 
 const Home: FC = () => {
   const skillSectionRef = useRef<HTMLDivElement>(null);
@@ -11,7 +12,7 @@ const Home: FC = () => {
     <PageContainerGrid>
       <Navbar skillSectionRef={skillSectionRef} />
       <About skillSectionRef={skillSectionRef} />
-      {/* <Skills /> */}
+      <Skills skillSectionRef={skillSectionRef} />
       <Footer />
     </PageContainerGrid>
   );
