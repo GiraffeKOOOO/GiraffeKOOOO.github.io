@@ -1,18 +1,22 @@
-import { FC, RefObject } from 'react';
+import { FC, RefObject, useState } from 'react';
 import { Typography } from '@mui/material';
-import SkillsToggle from 'Components/Skills/SkilsToggle';
+import { SkillGraph } from 'Components/Shared/Types';
 import ContentWrapper from 'Components/Shared/ContentWrapper';
+import SkillsToggle from 'Components/Skills/SkilsToggle';
+import SkillDisplay from 'Components/Skills/SkillDisplay';
 
 type SkillsProps = {
   skillSectionRef: RefObject<HTMLDivElement | null>;
 };
 
 const Skills: FC<SkillsProps> = ({ skillSectionRef }) => {
+  const [skillView, setSkillView] = useState<SkillGraph>(SkillGraph.spider);
+
   return (
     <ContentWrapper sectionRef={skillSectionRef} direction="column">
       <Typography sx={{ fontSize: '2.2rem' }}>Skills</Typography>
-      <SkillsToggle />
-      {/* <SkillDisplay /> */}
+      <SkillsToggle skillView={skillView} setSkillView={setSkillView} />
+      <SkillDisplay />
     </ContentWrapper>
   );
 };

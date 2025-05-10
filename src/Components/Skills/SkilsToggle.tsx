@@ -1,12 +1,15 @@
-import { FC, useState } from 'react';
+import { Dispatch, FC, SetStateAction } from 'react';
 import { ToggleButtonGroup } from '@mui/material';
 import { Colours } from 'Components/Shared/Colours';
 import SkillToggleButton from 'Components/Skills/SkillToggleButton';
 import { SkillGraph } from 'Components/Shared/Types';
 
-const SkillsToggle: FC = () => {
-  const [skillView, setSkillView] = useState<SkillGraph>(SkillGraph.spider);
+type SkillsToggleProps = {
+  skillView: SkillGraph;
+  setSkillView: Dispatch<SetStateAction<SkillGraph>>;
+};
 
+const SkillsToggle: FC<SkillsToggleProps> = ({ skillView, setSkillView }) => {
   const handleChange = (value: SkillGraph) => {
     if (value === skillView) return;
     setSkillView(value);
