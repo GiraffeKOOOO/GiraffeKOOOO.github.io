@@ -1,7 +1,7 @@
 import { FC } from 'react';
 import { Stack, Typography } from '@mui/material';
-import SocialsButton from 'Components/HomePageContent/SocialsButton';
 import { SocialsButtonName } from 'Components/Shared/Types';
+import SocialsButton from 'Components/About/SocialsButton';
 
 const SocialsSection: FC = () => {
   return (

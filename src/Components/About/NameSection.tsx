@@ -1,7 +1,7 @@
 import { FC, RefObject } from 'react';
 import { Stack, Typography } from '@mui/material';
-import ScrollButton from 'Components/HomePageContent/ScrollButton';
 import { Colours } from 'Components/Shared/Colours';
+import ScrollButton from 'Components/About/ScrollButton';
 
 type NameSectionRef = {
   skillSectionRef: RefObject<HTMLDivElement | null>;
