@@ -5,4 +5,5 @@ export enum Colours {
   navButton = 'rgb(190, 190, 190)',
   scrollButton = 'rgb(97, 97, 97)',
   scrollButtonChevronHover = 'rgb(19, 19, 19)',
+  skillToggleHover = 'rgb(48, 48, 48)',
 }

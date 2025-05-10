@@ -1,10 +1,12 @@
 import { FC } from 'react';
 import { Stack } from '@mui/material';
+import SkillsToggle from 'Components/Skills/SkilsToggle';
 
 const Skills: FC = () => {
   return (
-    <Stack>
-      <p>skill</p>
+    <Stack direction="column" sx={{}}>
+      <SkillsToggle />
+      {/* <SkillDisplay /> */}
     </Stack>
   );
 };

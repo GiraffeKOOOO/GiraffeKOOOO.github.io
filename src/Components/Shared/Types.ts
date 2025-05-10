@@ -12,3 +12,9 @@ export enum SocialsButtonName {
   linkedIn = 'Linked In',
   gitHub = 'GitHub',
 }
+
+export enum SkillGraph {
+  spider = 'Spider',
+  bar = 'Bar',
+  overview = 'Overview',
+}
