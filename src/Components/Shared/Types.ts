@@ -18,3 +18,9 @@ export enum SkillGraph {
   bar = 'Bar',
   overview = 'Overview',
 }
+
+export enum SkillOption {
+  programming = 'Programming',
+  development = 'Development',
+  general = 'General',
+}

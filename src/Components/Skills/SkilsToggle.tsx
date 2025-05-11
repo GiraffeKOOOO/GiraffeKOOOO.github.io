@@ -16,21 +16,19 @@ const SkillsToggle: FC<SkillsToggleProps> = ({ skillView, setSkillView }) => {
   };
 
   return (
-    <>
-      <ToggleButtonGroup
-        aria-label="skill selection"
-        value={skillView}
-        exclusive
-        sx={{
-          border: `1px solid ${Colours.navButton}`,
-          borderRadius: 2,
-        }}
-      >
-        <SkillToggleButton onChangeHandler={handleChange} skill={SkillGraph.spider} />
-        <SkillToggleButton onChangeHandler={handleChange} skill={SkillGraph.bar} />
-        <SkillToggleButton onChangeHandler={handleChange} skill={SkillGraph.overview} />
-      </ToggleButtonGroup>
-    </>
+    <ToggleButtonGroup
+      aria-label="skill selection"
+      value={skillView}
+      exclusive
+      sx={{
+        border: `1px solid ${Colours.navButton}`,
+        borderRadius: 2,
+      }}
+    >
+      <SkillToggleButton onChangeHandler={handleChange} skill={SkillGraph.spider} />
+      <SkillToggleButton onChangeHandler={handleChange} skill={SkillGraph.bar} />
+      <SkillToggleButton onChangeHandler={handleChange} skill={SkillGraph.overview} />
+    </ToggleButtonGroup>
   );
 };
 
