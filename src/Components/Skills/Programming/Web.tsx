@@ -3,7 +3,7 @@ import { Box } from '@mui/material';
 import { Unstable_RadarChart as RadarChart } from '@mui/x-charts/RadarChart';
 import { Colours } from 'Components/Shared/Colours';
 
-const Desktop: FC = () => {
+const Web: FC = () => {
   return (
     <Box
       sx={{
@@ -17,10 +17,19 @@ const Desktop: FC = () => {
         stripeColor={(index: number) =>
           index % 2 === 0 ? 'rgba(255, 255, 255, 1)' : 'rgba(255, 255, 255, 1)'
         }
-        series={[{ data: [6, 4, 2, 5, 6], fillArea: true, color: 'rgb(0, 60, 255)' }]}
+        series={[{ data: [7, 7, 5, 5, 5, 7, 7, 8], fillArea: true, color: 'rgb(0, 60, 255)' }]}
         radar={{
           max: 10,
-          metrics: ['C#', 'C++', 'C', 'Java', 'Node.js'],
+          metrics: [
+            'Typescript',
+            'JavaScript',
+            'Tailwind',
+            'PHP',
+            'Laravel',
+            'HTML',
+            'CSS',
+            'React',
+          ],
         }}
         sx={{
           '.MuiRadarGrid-stripe': {
@@ -39,4 +48,4 @@ const Desktop: FC = () => {
   );
 };
 
-export default Desktop;
+export default Web;

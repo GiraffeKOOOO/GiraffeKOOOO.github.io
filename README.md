@@ -20,5 +20,6 @@
     <li>TypeScript</li>
     <li>Vite</li>
     <li>Material UI</li>
+    <li>Material UI - Charts</li>
     <li>React Router</li>
 </ul>

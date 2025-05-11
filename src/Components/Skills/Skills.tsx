@@ -16,7 +16,7 @@ const Skills: FC<SkillsProps> = ({ skillSectionRef }) => {
     <ContentWrapper sectionRef={skillSectionRef} direction="column">
       <Typography sx={{ fontSize: '2.2rem' }}>Skills</Typography>
       <SkillsToggle skillView={skillView} setSkillView={setSkillView} />
-      <SkillDisplay />
+      <SkillDisplay skillView={skillView} />
     </ContentWrapper>
   );
 };
