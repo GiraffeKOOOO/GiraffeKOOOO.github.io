@@ -22,4 +22,5 @@
     <li>Material UI</li>
     <li>Material UI - Charts</li>
     <li>React Router</li>
+    <li>React Icons</li>
 </ul>
