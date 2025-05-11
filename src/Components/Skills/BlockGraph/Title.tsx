@@ -10,7 +10,7 @@ type TitleProps = {
 
 const Title: FC<TitleProps> = ({ title, icon }) => {
   return (
-    <Stack direction="row" spacing={1} alignItems="center" sx={{ width: '10rem', height: '2rem' }}>
+    <Stack direction="row" spacing={1} alignItems="center" sx={{ width: '11rem', height: '2rem' }}>
       <Box sx={{ color: Colours.white, fontSize: '1.7rem', display: 'inherit' }}>
         {icon && icon({})}
       </Box>

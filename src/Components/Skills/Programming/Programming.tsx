@@ -10,7 +10,6 @@ type ProgrammingProps = {
 };
 
 const Programming: FC<ProgrammingProps> = ({ skillView }) => {
-  console.log(`TEST: `, skillView);
   return (
     <Stack sx={{ marginTop: '2rem' }}>
       <Grid container spacing={2}>
