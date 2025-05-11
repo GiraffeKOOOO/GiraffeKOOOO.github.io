@@ -10,11 +10,11 @@ type SkillDisplayProps = {
   setSkillOption: (value: SkillOption) => void;
 };
 
-const SkillDisplay: FC<SkillDisplayProps> = ({ skillOption, setSkillOption }) => {
+const SkillDisplay: FC<SkillDisplayProps> = ({ skillView, skillOption, setSkillOption }) => {
   return (
     <Grid container spacing={2} sx={{ width: '100vw' }}>
       <Grid size={10}>
-        <Charts skillOption={skillOption} />
+        <Charts skillOption={skillOption} skillView={skillView} />
       </Grid>
       <Grid size={2} sx={{ marginY: 'auto' }}>
         <SkillOptions skillOption={skillOption} setSkillOption={setSkillOption} />

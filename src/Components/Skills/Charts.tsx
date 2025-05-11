@@ -1,23 +1,23 @@
 import { FC } from 'react';
-import { SkillOption } from 'Components/Shared/Types';
+import { SkillGraph, SkillOption } from 'Components/Shared/Types';
 import Programming from 'Components/Skills/Programming/Programming';
 import Development from 'Components/Skills/Development/Development';
 
 type ChartsProps = {
+  skillView: SkillGraph;
   skillOption: SkillOption;
 };
 
-const Charts: FC<ChartsProps> = ({ skillOption }) => {
+const Charts: FC<ChartsProps> = ({ skillView, skillOption }) => {
   switch (skillOption) {
     case SkillOption.programming:
-      return <Programming />;
+      return <Programming skillView={skillView} />;
     case SkillOption.development:
-      return <Development />;
-    case SkillOption.general:
-      //   return <General />;
-      return <></>;
+      return <Development skillView={skillView} />;
+    // case SkillOption.general:
+    //     return <General skillView={skillView} />;
     default:
-      return <Programming />;
+      return <Programming skillView={skillView} />;
   }
 };
 
