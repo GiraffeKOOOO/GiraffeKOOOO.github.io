@@ -26,7 +26,7 @@ const SkillsToggle: FC<SkillsToggleProps> = ({ skillView, setSkillView }) => {
       }}
     >
       <SkillToggleButton onChangeHandler={handleChange} skill={SkillGraph.spider} />
-      <SkillToggleButton onChangeHandler={handleChange} skill={SkillGraph.bar} />
+      <SkillToggleButton onChangeHandler={handleChange} skill={SkillGraph.blocks} />
       <SkillToggleButton onChangeHandler={handleChange} skill={SkillGraph.overview} />
     </ToggleButtonGroup>
   );

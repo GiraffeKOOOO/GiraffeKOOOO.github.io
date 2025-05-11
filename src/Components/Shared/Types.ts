@@ -15,7 +15,7 @@ export enum SocialsButtonName {
 
 export enum SkillGraph {
   spider = 'Spider',
-  bar = 'Bar',
+  blocks = 'Blocks',
   overview = 'Overview',
 }
 
