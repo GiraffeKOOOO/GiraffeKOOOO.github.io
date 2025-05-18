@@ -1,8 +1,8 @@
 import { FC } from 'react';
 import { Stack } from '@mui/material';
-import AboutSection from 'Components/HomePageContent/AboutSection';
-import CurrentRoleSection from 'Components/HomePageContent/CurrentRoleSection';
-import SocialsSection from 'Components/HomePageContent/SocialsSection';
+import AboutSection from 'Components/About/AboutSection';
+import CurrentRoleSection from 'Components/About/CurrentRoleSection';
+import SocialsSection from 'Components/About/SocialsSection';
 
 const DescriptionSection: FC = () => {
   return (

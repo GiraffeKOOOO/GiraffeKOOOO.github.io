@@ -3,6 +3,7 @@ export enum Colours {
   transparent = 'rgba(0,0,0,0)',
   white = 'rgb(255, 255, 255)',
   navButton = 'rgb(190, 190, 190)',
-  scrollButton = 'rgb(97, 97, 97)',
+  scrollButton = 'rgb(185, 185, 185)',
   scrollButtonChevronHover = 'rgb(19, 19, 19)',
+  skillToggleHover = 'rgb(48, 48, 48)',
 }
