@@ -73,7 +73,7 @@ const Testing: FC<TestingProps> = ({ skillView }) => {
         <BlockGraphRow title="Jest" icon={SiJest} filled={5} empty={5} />
         <BlockGraphRow title="Vitest" icon={SiVitest} filled={4} empty={6} />
         <BlockGraphRow title="Selenium" icon={SiSelenium} filled={3} empty={7} />
-        <BlockGraphRow title="JUnit" icon={SiJunit5} filled={7} empty={3} />
+        <BlockGraphRow title="JUnit" icon={SiJunit5} filled={3} empty={7} />
         <BlockGraphRow title="PHP Unit" icon={SiPhp} filled={3} empty={7} />
         <BlockGraphRow title="C# .NET Unit" icon={FaMicrosoft} filled={4} empty={6} />
         <BlockGraphRow title="C# .NET Integration" icon={FaMicrosoft} filled={4} empty={6} />
