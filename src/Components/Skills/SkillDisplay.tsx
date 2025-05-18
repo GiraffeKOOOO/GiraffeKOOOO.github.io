@@ -13,7 +13,7 @@ type SkillDisplayProps = {
 const SkillDisplay: FC<SkillDisplayProps> = ({ skillView, skillOption, setSkillOption }) => {
   return (
     <Grid container spacing={2} sx={{ width: '100vw' }}>
-      <Grid size={10}>
+      <Grid size={10} sx={{ marginLeft: '2rem', marginRight: '-2rem' }}>
         <Charts skillOption={skillOption} skillView={skillView} />
       </Grid>
       <Grid size={2} sx={{ marginY: 'auto' }}>
