@@ -8,6 +8,9 @@ import { SiReactrouter } from 'react-icons/si';
 import { SiRecoil } from 'react-icons/si';
 import { SiReactbootstrap } from 'react-icons/si';
 import { RiTailwindCssFill } from 'react-icons/ri';
+import { IoLogoJavascript } from 'react-icons/io5';
+import { SiJest } from 'react-icons/si';
+import { FaMicrosoft } from 'react-icons/fa';
 
 type LanguageIconProps = {
   tech: Tech;
@@ -31,6 +34,14 @@ const LanguageIcon: FC<LanguageIconProps> = ({ tech }) => {
       return <SiReactbootstrap />;
     case Tech.tailwind:
       return <RiTailwindCssFill />;
+    case Tech.javascript:
+      return <IoLogoJavascript />;
+    case Tech.jest:
+      return <SiJest />;
+    case Tech.cSharp:
+      return <FaMicrosoft />;
+    default:
+      return <FaReact />;
   }
 };
 

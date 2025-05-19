@@ -35,6 +35,28 @@ const ProjectList: Project[] = [
       Tech.tailwind,
     ],
   },
+  {
+    projectName: 'GiraffeKOOOO.github.io',
+    projectDescription:
+      'A simple portfolio page made in React to demonstrate my projects, work experiences, and academic achievements',
+    projectUrl: 'https://github.com/GiraffeKOOOO/GiraffeKOOOO.github.io',
+    projectImageUrl: 'https://i.imgur.com/JkcdB04.png',
+    stack: [Tech.react, Tech.typescript, Tech.vite, Tech.mui, Tech.reactRouter],
+  },
+  {
+    projectName: 'Gaze Self-Checkout',
+    projectDescription: `My Master's Degree Dissertaion project, combining Tobii Eye Tracker 5C to operate a Self-Checkout`,
+    projectUrl: 'https://github.com/GiraffeKOOOO/GazeSelfCheckout',
+    projectImageUrl: 'https://i.imgur.com/pFSwHGP.png',
+    stack: [Tech.react, Tech.javascript, Tech.mui, Tech.reactRouter, Tech.jest],
+  },
+  {
+    projectName: 'Contactless Self-Checkout',
+    projectDescription: 'A simple web app to help manage game organisation at a LAN party',
+    projectUrl: 'https://github.com/GiraffeKOOOO/ContactlessSelfCheckout',
+    projectImageUrl: '',
+    stack: [Tech.cSharp],
+  },
 ];
 
 export default ProjectList;

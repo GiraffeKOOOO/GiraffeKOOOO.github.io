@@ -34,6 +34,9 @@ export enum Tech {
   reactRecoil = 'React Recoil',
   reactBootstrap = 'React Bootstrap',
   tailwind = 'Tailwind',
+  javascript = 'Javascript',
+  jest = 'Jest',
+  cSharp = 'CSharp',
 }
 
 export type Project = {
