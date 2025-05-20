@@ -24,3 +24,25 @@ export enum SkillOption {
   development = 'Development',
   general = 'General',
 }
+
+export enum Tech {
+  react = 'React',
+  typescript = 'Typescript',
+  vite = 'Vite',
+  mui = 'Mui',
+  reactRouter = 'React Router',
+  reactRecoil = 'React Recoil',
+  reactBootstrap = 'React Bootstrap',
+  tailwind = 'Tailwind',
+  javascript = 'Javascript',
+  jest = 'Jest',
+  cSharp = 'CSharp',
+}
+
+export type Project = {
+  projectName: string;
+  projectDescription: string;
+  projectUrl: string;
+  projectImageUrl: string;
+  stack: Tech[];
+};

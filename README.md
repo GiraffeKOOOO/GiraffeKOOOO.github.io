@@ -23,4 +23,5 @@
     <li>Material UI - Charts</li>
     <li>React Router</li>
     <li>React Icons</li>
+    <li>React Awesome Reveal</li>
 </ul>

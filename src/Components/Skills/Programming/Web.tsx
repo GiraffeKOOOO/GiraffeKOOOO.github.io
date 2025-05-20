@@ -66,7 +66,7 @@ const Web: FC<WebProps> = ({ skillView }) => {
   if (skillView === SkillGraph.blocks) {
     return (
       <Stack direction="column" alignItems="center" spacing={2} sx={{ marginTop: '2rem' }}>
-        <BlockGraphRow title="React" icon={FaReact} filled={8} empty={2} />
+        <BlockGraphRow title="React" icon={FaReact} filled={7} empty={3} />
         <BlockGraphRow title="Typescript" icon={BiLogoTypescript} filled={7} empty={3} />
         <BlockGraphRow title="JavaScript" icon={IoLogoJavascript} filled={7} empty={3} />
         <BlockGraphRow title="PHP" icon={SiPhp} filled={5} empty={5} />
