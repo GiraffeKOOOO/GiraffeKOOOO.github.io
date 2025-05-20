@@ -17,7 +17,7 @@ const Navbar: FC<NavbarProps> = ({ skillSectionRef, projectSectionRef }) => {
           <NavButton btnName={NavButtonName.About} />
           <NavButton btnName={NavButtonName.Skills} sectionRef={skillSectionRef} />
           <NavButton btnName={NavButtonName.Projects} sectionRef={projectSectionRef} />
-          <NavButton btnName={NavButtonName.CV} />
+          <NavButton btnName={NavButtonName.CV} cv />
           <NavButton btnName={NavButtonName.Experience} />
           <NavButton btnName={NavButtonName.Education} />
           <NavButton btnName={NavButtonName.Contact} />
