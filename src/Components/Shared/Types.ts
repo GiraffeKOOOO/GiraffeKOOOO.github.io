@@ -46,3 +46,11 @@ export type Project = {
   projectImageUrl: string;
   stack: Tech[];
 };
+
+export type WorkExperience = {
+  company: string;
+  image: string;
+  imageBottomOffset: number;
+  role: string;
+  description: string;
+};
