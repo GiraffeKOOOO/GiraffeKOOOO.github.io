@@ -9,11 +9,16 @@ import LanguageIcon from 'Components/Projects/LanguageIcon';
 type FooterProps = {
   skillSectionRef: RefObject<HTMLDivElement | null>;
   projectSectionRef: RefObject<HTMLDivElement | null>;
+  workExperienceSectionRef: RefObject<HTMLDivElement | null>;
 };
 
 const techStack: Tech[] = [Tech.react, Tech.typescript, Tech.vite, Tech.mui, Tech.reactRouter];
 
-const Footer: FC<FooterProps> = ({ skillSectionRef, projectSectionRef }) => {
+const Footer: FC<FooterProps> = ({
+  skillSectionRef,
+  projectSectionRef,
+  workExperienceSectionRef,
+}) => {
   return (
     <Grid
       container
@@ -48,7 +53,7 @@ const Footer: FC<FooterProps> = ({ skillSectionRef, projectSectionRef }) => {
           <NavButton btnName={NavButtonName.Skills} sectionRef={skillSectionRef} />
           <NavButton btnName={NavButtonName.Projects} sectionRef={projectSectionRef} />
           <NavButton btnName={NavButtonName.CV} cv />
-          <NavButton btnName={NavButtonName.Experience} />
+          <NavButton btnName={NavButtonName.Experience} sectionRef={workExperienceSectionRef} />
           <NavButton btnName={NavButtonName.Education} />
           <NavButton btnName={NavButtonName.Contact} />
         </Stack>
