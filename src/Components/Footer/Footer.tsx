@@ -29,7 +29,7 @@ const Footer: FC<FooterProps> = ({ skillSectionRef, projectSectionRef }) => {
     >
       <Grid size={2} sx={{ marginTop: '-0.5rem' }}>
         <Stack direction="column">
-          <Typography>This website is Powered by</Typography>
+          <Typography>This website is powered by</Typography>
           <Stack direction="row" justifyContent="center" spacing={2} sx={{ marginTop: '0.4rem' }}>
             {techStack.map((tech) => {
               return (
