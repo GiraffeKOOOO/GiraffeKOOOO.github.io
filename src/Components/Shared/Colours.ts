@@ -9,4 +9,5 @@ export enum Colours {
   skillToggleHover = 'rgb(48, 48, 48)',
   projectDescription = 'rgb(49, 49, 49)',
   techIcon = 'rgb(86, 86, 86)',
+  footerBackground = 'rgb(46, 52, 62)',
 }

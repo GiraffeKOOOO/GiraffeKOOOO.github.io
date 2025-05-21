@@ -9,7 +9,7 @@ const SocialsSection: FC = () => {
       <Typography align="left" sx={{ fontSize: '1.2rem' }}>
         Find me on
       </Typography>
-      <Stack direction="row">
+      <Stack direction="row" spacing={0.7}>
         <SocialsButton btnName={SocialsButtonName.gitHub} />
         <SocialsButton btnName={SocialsButtonName.linkedIn} />
       </Stack>

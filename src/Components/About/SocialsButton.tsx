@@ -37,8 +37,15 @@ const SocialsButton: FC<SocialsButtonProps> = ({ btnName }) => {
         },
       }}
       onClick={() => {
-        // TODO: implement going to ref here / page
-        console.log('test');
+        window.open(
+          `${
+            btnName === SocialsButtonName.gitHub
+              ? 'https://github.com/GiraffeKOOOO'
+              : 'https://www.linkedin.com/in/paskal-stepien-432161174/'
+          }`,
+          '_blank',
+          'noopener,noreferrer',
+        );
       }}
     >
       {iconSwitch(btnName)}

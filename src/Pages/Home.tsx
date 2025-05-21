@@ -16,7 +16,7 @@ const Home: FC = () => {
       <About skillSectionRef={skillSectionRef} />
       <Skills skillSectionRef={skillSectionRef} />
       <Projects projectSectionRef={projectSectionRef} />
-      <Footer />
+      <Footer skillSectionRef={skillSectionRef} projectSectionRef={projectSectionRef} />
     </PageContainerGrid>
   );
 };
