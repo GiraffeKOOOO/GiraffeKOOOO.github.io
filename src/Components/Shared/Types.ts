@@ -46,3 +46,18 @@ export type Project = {
   projectImageUrl: string;
   stack: Tech[];
 };
+
+export type ImageOffset = {
+  sm: number;
+  md: number;
+  lg: number;
+  xl: number;
+};
+
+export type WorkExperience = {
+  company: string;
+  image: string;
+  imageBottomOffset: ImageOffset;
+  role: string;
+  description: string;
+};

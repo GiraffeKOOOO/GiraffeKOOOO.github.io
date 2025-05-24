@@ -7,14 +7,10 @@ type ContentWrapperProps = {
   sectionRef?: RefObject<HTMLDivElement | null>;
   aboutWrapper?: boolean;
   direction?: 'row' | 'column';
-};
-
-const defaultStyling = {
-  height: '100vh',
+  customHeight?: number;
 };
 
 const aboutStyling = {
-  height: '100vh',
   backgroundImage: `url(${bannerImage})`,
   backgroundSize: '55rem 55rem',
   backgroundRepeat: 'no-repeat',
@@ -26,6 +22,7 @@ const ContentWrapper: FC<ContentWrapperProps> = ({
   sectionRef,
   direction,
   aboutWrapper,
+  customHeight,
 }) => {
   return (
     <Stack
@@ -34,7 +31,8 @@ const ContentWrapper: FC<ContentWrapperProps> = ({
       spacing={2}
       justifyContent="center"
       alignItems="center"
-      sx={aboutWrapper ? aboutStyling : defaultStyling}
+      sx={aboutWrapper ? aboutStyling : null}
+      height={customHeight ?? '100vh'}
     >
       {children}
     </Stack>

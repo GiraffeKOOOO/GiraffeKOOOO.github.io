@@ -30,7 +30,7 @@ const Projects: FC<ProjectProps> = ({ projectSectionRef }) => {
           <ProjectRow projects={secondSet} />
         </Fade>
       )}
-      <Stack sx={{ paddingTop: '1rem' }}>
+      <Stack sx={{ paddingTop: '1rem', paddingBottom: '4rem' }}>
         {showSecondSet ? (
           <GithubButton />
         ) : (
