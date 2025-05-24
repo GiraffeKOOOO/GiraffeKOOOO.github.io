@@ -10,4 +10,5 @@ export enum Colours {
   projectDescription = 'rgb(49, 49, 49)',
   techIcon = 'rgb(86, 86, 86)',
   footerBackground = 'rgb(46, 52, 62)',
+  workAccordionBackground = 'rgb(94, 94, 94)',
 }

@@ -3,6 +3,7 @@ import { Box, Grid, Stack, Typography } from '@mui/material';
 import { Fade } from 'react-awesome-reveal';
 import { WorkExperience } from 'Components/Shared/Types';
 import AccordionTextComponent from 'Components/WorkExperience/AccordionTextComponent';
+import { Colours } from 'Components/Shared/Colours';
 
 type WorkExperienceAccordionProps = {
   workExperience: WorkExperience;
@@ -16,6 +17,8 @@ const WorkExperienceAccordion: FC<WorkExperienceAccordionProps> = ({ workExperie
       sx={{
         width: '75vw',
         marginY: '2rem',
+        border: `1px solid ${Colours.white}`,
+        borderRadius: isOpen ? '10px 10px 0px 0px' : '10px 10px 10px 10px',
       }}
     >
       <Box
@@ -23,7 +26,7 @@ const WorkExperienceAccordion: FC<WorkExperienceAccordionProps> = ({ workExperie
           height: '200px',
           position: 'relative',
           overflow: 'hidden',
-          borderRadius: isOpen ? '10px 10px 00px 0px' : '10px 10px 10px 10px',
+          borderRadius: isOpen ? '10px 10px 0px 0px' : '10px 10px 10px 10px',
         }}
         onClick={() => setIsOpen(!isOpen)}
       >
@@ -33,7 +36,12 @@ const WorkExperienceAccordion: FC<WorkExperienceAccordionProps> = ({ workExperie
           sx={{
             width: '100%',
             position: 'relative',
-            bottom: `${workExperience.imageBottomOffset}px`,
+            bottom: {
+              sm: `${workExperience.imageBottomOffset.sm}px`,
+              md: `${workExperience.imageBottomOffset.md}px`,
+              lg: `${workExperience.imageBottomOffset.lg}px`,
+              xl: `${workExperience.imageBottomOffset.xl}px`,
+            },
             opacity: 0.5,
             '&:hover': {
               opacity: 0.8,
@@ -58,7 +66,7 @@ const WorkExperienceAccordion: FC<WorkExperienceAccordionProps> = ({ workExperie
           <Box
             sx={{
               width: '75vw',
-              backgroundColor: 'white',
+              backgroundColor: `${Colours.footerBackground}`,
               borderBottomLeftRadius: '10px',
               borderBottomRightRadius: '10px',
             }}
@@ -69,7 +77,7 @@ const WorkExperienceAccordion: FC<WorkExperienceAccordionProps> = ({ workExperie
                 <AccordionTextComponent component="role" text={workExperience.role} />
               </Grid>
               <Grid size={9}>
-                <Typography align="left" sx={{ color: 'black', padding: '0.5rem' }}>
+                <Typography align="left" sx={{ color: 'white', padding: '0.5rem' }}>
                   {workExperience.description}
                 </Typography>
               </Grid>

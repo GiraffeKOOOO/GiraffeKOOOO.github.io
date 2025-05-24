@@ -10,7 +10,7 @@ type WorkExperienceProps = {
 
 const WorkExperience: FC<WorkExperienceProps> = ({ workExperienceSectionRef }) => {
   return (
-    <ContentWrapper sectionRef={workExperienceSectionRef} direction="column">
+    <ContentWrapper sectionRef={workExperienceSectionRef} direction="column" customHeight={1700}>
       <Typography sx={{ fontSize: '2.2rem' }}>Work Experience</Typography>
       <Stack sx={{ paddingY: '2rem' }}>
         {WorkExperienceList.map((workExperience) => {
